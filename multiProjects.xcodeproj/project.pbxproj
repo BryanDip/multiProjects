@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B10207241D20A95400AA64EA /* SonarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10207231D20A95400AA64EA /* SonarViewController.swift */; };
+		B107C6E11D1F090A00A4FE2B /* ChickenOrEggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B107C6E01D1F090A00A4FE2B /* ChickenOrEggViewController.swift */; };
+		B1083BF71D3D9BF30084D8E1 /* UIAlertControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1083BF61D3D9BF30084D8E1 /* UIAlertControllerViewController.swift */; };
+		B110DD231D4B0BA700DBF2DA /* UIDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B110DD221D4B0BA700DBF2DA /* UIDatePickerViewController.swift */; };
 		B11302BE1D1E414100FD45A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11302BD1D1E414100FD45A8 /* AppDelegate.swift */; };
 		B11302C01D1E414100FD45A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11302BF1D1E414100FD45A8 /* ViewController.swift */; };
 		B11302C31D1E414100FD45A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11302C11D1E414100FD45A8 /* Main.storyboard */; };
 		B11302C51D1E414100FD45A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11302C41D1E414100FD45A8 /* Assets.xcassets */; };
 		B11302C81D1E414100FD45A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11302C61D1E414100FD45A8 /* LaunchScreen.storyboard */; };
+		B17F612F1D62CF82003D6AC1 /* UIPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F612E1D62CF82003D6AC1 /* UIPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B10207231D20A95400AA64EA /* SonarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SonarViewController.swift; path = ../SonarViewController.swift; sourceTree = "<group>"; };
+		B107C6E01D1F090A00A4FE2B /* ChickenOrEggViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChickenOrEggViewController.swift; sourceTree = "<group>"; };
+		B1083BF61D3D9BF30084D8E1 /* UIAlertControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertControllerViewController.swift; sourceTree = "<group>"; };
+		B110DD221D4B0BA700DBF2DA /* UIDatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDatePickerViewController.swift; sourceTree = "<group>"; };
 		B11302BA1D1E414100FD45A8 /* multiProjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiProjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11302BD1D1E414100FD45A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B11302BF1D1E414100FD45A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,7 @@
 		B11302C41D1E414100FD45A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B11302C71D1E414100FD45A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B11302C91D1E414100FD45A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B17F612E1D62CF82003D6AC1 /* UIPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 			children = (
 				B11302BD1D1E414100FD45A8 /* AppDelegate.swift */,
 				B11302BF1D1E414100FD45A8 /* ViewController.swift */,
+				B107C6E01D1F090A00A4FE2B /* ChickenOrEggViewController.swift */,
+				B10207231D20A95400AA64EA /* SonarViewController.swift */,
+				B1083BF61D3D9BF30084D8E1 /* UIAlertControllerViewController.swift */,
+				B110DD221D4B0BA700DBF2DA /* UIDatePickerViewController.swift */,
+				B17F612E1D62CF82003D6AC1 /* UIPickerViewController.swift */,
 				B11302C11D1E414100FD45A8 /* Main.storyboard */,
 				B11302C41D1E414100FD45A8 /* Assets.xcassets */,
 				B11302C61D1E414100FD45A8 /* LaunchScreen.storyboard */,
@@ -91,11 +106,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Bayan;
 				TargetAttributes = {
 					B11302B91D1E414100FD45A8 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -135,8 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1083BF71D3D9BF30084D8E1 /* UIAlertControllerViewController.swift in Sources */,
 				B11302C01D1E414100FD45A8 /* ViewController.swift in Sources */,
 				B11302BE1D1E414100FD45A8 /* AppDelegate.swift in Sources */,
+				B17F612F1D62CF82003D6AC1 /* UIPickerViewController.swift in Sources */,
+				B10207241D20A95400AA64EA /* SonarViewController.swift in Sources */,
+				B110DD231D4B0BA700DBF2DA /* UIDatePickerViewController.swift in Sources */,
+				B107C6E11D1F090A00A4FE2B /* ChickenOrEggViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +197,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -199,7 +222,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -222,8 +245,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -239,9 +264,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -255,6 +281,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bitfountain.multiProjects;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -266,6 +293,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bitfountain.multiProjects;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -288,6 +316,7 @@
 				B11302CE1D1E414100FD45A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
